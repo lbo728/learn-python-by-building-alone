@@ -14,3 +14,4 @@ if __name__ == "__main__":
     df_sort = df_pivot.sort_values("누적금액", ascending=False)
     df_reindex = df_sort.reset_index()
     df_reindex.to_excel(OUT_3_2, index=False, sheet_name="분류별누적금액")
+    
